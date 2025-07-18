@@ -61,7 +61,7 @@ const NotesForm = () => {
         </button>
       </form>
 
-      <div className="mt-6 flex gap-3">
+      <div className="mt-6 flex gap-33">
         {notes.length === 0 ? (
           <p className="text-gray-500 text-center">No notes added yet</p>
         ) : (
